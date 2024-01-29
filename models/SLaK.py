@@ -262,7 +262,7 @@ class LayerNorm(nn.Module):
 
 
 @register_model
-def SLaK_tiny(pretrained=False, **kwargs):
+def SLaK_tiny(**kwargs):
     model = SLaK(depths=[3, 3, 9, 3], dims=[96, 192, 384, 768], **kwargs)
 
     return model
