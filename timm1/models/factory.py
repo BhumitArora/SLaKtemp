@@ -28,6 +28,7 @@ def create_model(
         checkpoint_path='',
         scriptable=None,
         exportable=None,
+        pretrained_cfg=None,
         no_jit=None,
         **kwargs):
     """Create a model
