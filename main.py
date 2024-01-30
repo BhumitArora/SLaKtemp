@@ -300,7 +300,7 @@ def main(args):
 
     model = create_model(
         args.model,
-        pretrained=True,
+        pretrained=False,
         num_classes=args.nb_classes,
         drop_path_rate=args.drop_path,
         layer_scale_init_value=args.layer_scale_init_value,
