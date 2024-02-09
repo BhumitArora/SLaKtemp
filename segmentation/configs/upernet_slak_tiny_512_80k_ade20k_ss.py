@@ -18,7 +18,7 @@ _base_ = [
 ]
 crop_size = (512, 512)
 
-checkpoint_file = '/path/to/checkpoint-best.pth'
+checkpoint_file = '/kaggle/input/notebook2/Output/checkpoint-best.pth'
 
 model = dict(
     backbone=dict(
